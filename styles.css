@@ -1,0 +1,109 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #fff
+} 
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+p.introduction {
+  font-size: 36px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Background images */
+/* body.index { */
+  /* background-image: url('background.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
+
+/* body.about { */
+  /* background-image: url('about_page/background_1.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
+
+/* body.contact { */
+  /* background-image: url('contact_page/background_2.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.contact {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+div.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h2.main_intro {
+  font-size: 40px;
+  text-align: center;
+  margin: 120px 0px 0px 0px;
+}
