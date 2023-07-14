@@ -1,15 +1,22 @@
-.rectangle {
-    width: 200px; /* 设置矩形的宽度 */
-    height: 350px; /* 设置矩形的高度 */
-    background-color: #f1f1f1; /* 设置矩形的背景颜色 */
-    display: inline-block; /* 将矩形元素以行内块元素的形式显示 */
-    margin: 10px; /* 设置矩形之间的间距 */
-}
+.contact-heading {
+    text-align: center;
+    margin-bottom: 5%;
+  }
 
 .contact_container {
-    display: flex; /* 使用 Flexbox 布局 */
-    flex-direction: row; /* 设置主轴方向为垂直方向 */
-    height: 500px; /* 设置容器高度 */
-    position: absolute;
-    top:30%
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+}
+
+.rectangle {
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.contact_way {
+    display:flex;
+    justify-content: center;
 }
