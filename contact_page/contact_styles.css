@@ -1,4 +1,4 @@
-.contact-heading {
+/* .contact-heading {
     text-align: center;
     margin-bottom: 5%;
   }
@@ -19,4 +19,78 @@
 .contact_way {
     display:flex;
     justify-content: center;
+} */
+
+
+.contact-heading h2 {
+  text-align: left;
+  margin-left: 16%;
+  margin-bottom: 3%;
+  margin-top: 8%;
+  font-size: 40px;
+}
+
+.contact-heading p {
+  text-align: left;
+  margin-left: 16%;
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+}
+
+.rectangle {
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.rectangle img {
+  margin-left: -20px;
+  margin-bottom: -5px;
+  width: 250px;
+}
+
+.rectangle div:last-child {
+  margin-left: -20px;
+  background-color: white;
+  width: 250px;
+  height: 200px;
+}
+
+.rectangle p:first-child {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.contact-way {
+  display: flex;
+  justify-content: center;
+  margin-top:6%;
+  margin-bottom: 3%;
+}
+
+.contact-way div {
+  margin-right: 20px;
+}
+
+.contact-way span {
+  margin-left: 2em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+
+.contact p,
+.contact span {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
 }
