@@ -34,7 +34,7 @@ nav a {
 }
 
 .container {
-  max-width: 800px;
+  /*max-width: 800px; */
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
@@ -53,7 +53,10 @@ p {
 }
 
 p.introduction {
-  font-size: 36px;
+  font-size: 60px;
+  font-family: 'Crimson Text', serif;
+  width: 1000px;
+  text-align: center;
 }
 
 footer {
@@ -105,5 +108,44 @@ div.img {
 h2.main_intro {
   font-size: 40px;
   text-align: center;
-  margin: 120px 0px 0px 0px;
+  margin: 100px 0px 20px 0px;
+
+}
+
+.part {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.part_left {
+  width: 50%;
+}
+
+.part_right {
+  width: 50%;
+}
+
+.part_title {
+  font-size:60px;
+  font-family: 'Ysabeau Office', sans-serif;
+  font-weight: 400;
+}
+
+.part_para {
+  font-size:40px;
+  font-family: 'Ysabeau Office', sans-serif;
+  font-weight: 200;
+}
+
+.main_intro_detail {
+  line-height: 1.875em;
+  font-family: 'Mulish', sans-serif;
+}
+
+.paragraphs {
+  margin-left: 10%;
+  width: 80%;
+  font-size: 20px;
 }
