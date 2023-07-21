@@ -1,0 +1,10 @@
+.mission {
+  display: flex;
+  justify-content: center;
+  width: 66%;
+  margin-left: 17%;
+}
+
+.mission_detail {
+    text-align: justify;
+}
