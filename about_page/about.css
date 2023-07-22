@@ -2,9 +2,39 @@
   display: flex;
   justify-content: center;
   width: 66%;
-  margin-left: 17%;
+  margin-left: 18%;
 }
 
 .mission_detail {
     text-align: justify;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:10%;
+}
+
+.intro_left {
+    width: 65%;
+}
+
+.intro_right {
+    width: 35%;
+}
+
+.intro_text {
+    font-family: 'Mulish', sans-serif;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: large;
+    margin-top:10px;
+}
+
+.intro_hello {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    text-align: left;
 }
