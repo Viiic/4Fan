@@ -177,6 +177,10 @@ h2.main_intro {
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .part {
+    background-color: #f0f0f0;
+  }
 }
 
 .part_title_div {
