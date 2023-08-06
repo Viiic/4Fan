@@ -240,3 +240,10 @@ h2.main_intro {
   width: 80%;
   font-size: 20px;
 }
+
+.calendar {
+  position: fixed;
+    bottom: 20px; /* 距离底部的距离 */
+    right: 0px; /* 距离右侧的距离 */
+    z-index: 9999; /* 确保日历元素显示在其他内容上方 */
+}
